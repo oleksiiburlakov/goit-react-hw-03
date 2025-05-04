@@ -1,0 +1,13 @@
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.list li {
+    width: calc(33.33% - 10px); 
+    box-sizing: border-box;
+}
